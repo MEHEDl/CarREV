@@ -13,6 +13,7 @@ namespace CarREV.Mapping
         public MappingProfile()
         {
             CreateMap<Make, MakeResource>();
+            CreateMap<Feature, KeyValuePairResource>();
             CreateMap<Model, ModelResource>();
         }
     }
